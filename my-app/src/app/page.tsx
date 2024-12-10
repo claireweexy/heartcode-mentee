@@ -14,14 +14,8 @@ import New_Drug_Addict from "@/app/assets/new_drug_addict.webp";
 import Cocaine from "@/app/assets/cocaine_bags.jpg";
 import {Button, buttonVariants} from "@/components/ui/button";
 import useSound from "use-sound";
-// import FartFile from "@/app/assets/fart.mp3";
-// const FartFile = require("@/app/assets/fart.mp3")
-// const Fart = new Audio(FartFile)
 
 export default function Home() {
-  // const Fart = require("@/app/assets/fart.mp3")
-  // const FartButton = () => useSound(Fart);
-  // const FartButton = () => Fart.play();
   return (
     <div className="flex justify-center bg-repeat" style={{backgroundImage: `url("${Cocaine}")`}}>
       <div className="text-center p-1 w-60 font-serif hover:font-sans hover:bg-sky-100">
@@ -44,7 +38,6 @@ export default function Home() {
           <CarouselNext />
         </Carousel>
       </div>
-      {/* <button onClick={FartButton}>Touch me</button> */}
     </div>
   );
 }

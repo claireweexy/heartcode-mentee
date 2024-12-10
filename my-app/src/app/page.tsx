@@ -1,4 +1,6 @@
+"use client"
 import Image from "next/image";
+import React from "react"
 import {
   Carousel,
   CarouselContent,
@@ -11,8 +13,13 @@ import Drug from "@/app/assets/drug.jpg";
 import New_Drug_Addict from "@/app/assets/new_drug_addict.webp";
 import Cocaine from "@/app/assets/cocaine_bags.jpg";
 import {Button, buttonVariants} from "@/components/ui/button";
+import useSound from "use-sound";
+import Fart from "@/app/assets/fart.mp3";
 
 export default function Home() {
+  const FartButton = () => {
+    useSound(Fart);
+  };
   return (
     <div className="flex justify-center bg-repeat" style={{backgroundImage: `url("${Cocaine}")`}}>
       <div className="text-center p-1 w-60 font-serif hover:font-sans hover:bg-sky-100">
@@ -35,11 +42,7 @@ export default function Home() {
           <CarouselNext />
         </Carousel>
       </div>
-      {/* <div>
-        <Button asChild>
-          <link href="/about-drug-addicts/page.tsx">About Drug Addicts</link>
-        </Button>
-      </div> */}
+      <button onClick={FartButton}>Touch me</button>
     </div>
   );
 }

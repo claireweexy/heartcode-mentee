@@ -40,7 +40,7 @@ export default function Home() {
 
             <br/>
             <div className="flex justify-center">
-                <Image height={400} src={Dont_Take_Drugs} alt="That feeling when you don't take drugs"/>
+                <Image height={200} src={Dont_Take_Drugs} alt="That feeling when you don't take drugs"/>
             </div>
         </div>
     );

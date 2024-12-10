@@ -6,7 +6,7 @@ import See_Drugs from "@/app/assets/see_drugs.png";
 export default function Home() {
   return (
     <div className="justify-center flex">
-      <div className="text-center p-1 w-60 font-sans hover:font-serif hover:bg-sky-100">
+      <div className="text-center p-1 w-60 font-sans hover:font-serif hover:bg-sky-500">
         <div>
           I take cocaine every day
         </div>
@@ -22,7 +22,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="text-center p-1 w-60 font-sans hover:font-serif hover:bg-green-100">
+      <div className="text-center p-1 w-60 font-sans hover:font-serif hover:bg-green-500">
         <div>
           I smoke weed everyday
         </div>

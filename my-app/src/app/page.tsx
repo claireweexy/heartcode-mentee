@@ -17,9 +17,9 @@ import See_Drugs from "@/app/assets/see_drugs.png";
 export default function Home() {
   return (
     <div>
-      <div className="text-center p-1 w-60 font-serif hover:font-sans hover:bg-sky-100">
-        <div>
-          please do <b>drugs</b>
+      <div className="p-1 font-serif hover:font-sans">
+        <div className="text-center">
+          please do <b>drugs</b>. be like him
         </div>
       </div>
       <div className="flex justify-center">

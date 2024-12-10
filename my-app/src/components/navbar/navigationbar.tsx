@@ -7,6 +7,7 @@ import {
 
 
 import Link from "next/link";
+import { ModeToggle } from "../mode-toggle";
 
 export function NavigationBar() {
     return(
@@ -40,6 +41,10 @@ export function NavigationBar() {
                     </NavigationMenuLink>
                 </Link>
             </NavigationMenuItem>
+        </div>
+
+        <div>
+            <ModeToggle/>
         </div>
     </NavigationMenu>
     )

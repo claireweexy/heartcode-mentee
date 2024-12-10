@@ -13,7 +13,6 @@ import Drug from "@/app/assets/drug.jpg";
 import New_Drug_Addict from "@/app/assets/new_drug_addict.webp";
 import Cocaine from "@/app/assets/cocaine_bags.jpg";
 import {Button, buttonVariants} from "@/components/ui/button";
-import useSound from "use-sound";
 
 export default function Home() {
   return (
@@ -21,10 +20,6 @@ export default function Home() {
       <div className="text-center p-1 w-60 font-serif hover:font-sans hover:bg-sky-100">
         <div>
           please do <b>drugs</b>
-        </div>
-        <hr></hr>
-        <div>
-          <b>OK!</b>
         </div>
       </div>
       <div>

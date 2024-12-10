@@ -11,10 +11,6 @@ export const mainBank = [
       name: 'New Drug Addict',
       url: '/assets/new_drug_addict.webp'
     },
-    {
-      name: 'See Drugs',
-      url: '/assets/see_drugs.png'
-    },
   ]
 
 export const drugBank = [

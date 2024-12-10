@@ -29,9 +29,6 @@ export default function Home() {
                 </div>
               </CarouselItem>
             ))}
-            {/* <CarouselItem><div className="flex justify-center"><Image height={300} src={Healthy_Man} alt="Healthy man"/></div></CarouselItem>
-            <CarouselItem><div className="flex justify-center"><Image height={300} src={Drug} alt="drug"/></div></CarouselItem>
-            <CarouselItem><div><div className="flex justify-center"><Image height={300} src={New_Drug_Addict} alt="new drug addict"/></div><span className="flex justify-center font-extrabold text-3xl">if you wanna die</span></div></CarouselItem> */}
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />

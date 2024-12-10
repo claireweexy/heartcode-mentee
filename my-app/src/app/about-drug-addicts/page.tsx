@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Drug_Addict from "@/app/assets/drug_addict.webp";
 import Weed_Addict from "@/app/assets/weed_addict.webp";
+import See_Drugs from "@/app/assets/see_drugs.png";
 
 export default function Home() {
   return (

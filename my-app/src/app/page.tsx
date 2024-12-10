@@ -16,11 +16,11 @@ export default function Home() {
     <div className="flex justify-center bg-repeat" style={{backgroundImage: `url("${Cocaine}")`}}>
       <div className="text-center p-1 w-60 font-serif hover:font-sans hover:bg-sky-100">
         <div>
-          dont do <b>drugs</b>
+          please do <b>drugs</b>
         </div>
         <hr></hr>
         <div>
-          ok?
+          <b>OK!</b>
         </div>
       </div>
       <div>
@@ -28,7 +28,7 @@ export default function Home() {
           <CarouselContent>
             <CarouselItem><Image src={Healthy_Man} height={300} alt="Healthy man"/></CarouselItem>
             <CarouselItem><Image src={Drug} height={300} alt="drug"/></CarouselItem>
-            <CarouselItem><Image src={New_Drug_Addict} height={300} alt="new drug addict"/><p className="font-extrabold text-6xl">DUN DUN DUN</p></CarouselItem>
+            <CarouselItem><Image src={New_Drug_Addict} height={300} alt="new drug addict"/><div className="font-extrabold text-6xl">HE HE HA HA!!</div></CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />

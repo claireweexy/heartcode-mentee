@@ -10,6 +10,7 @@ import Healthy_Man from "@/app/assets/healthy_man.jpg";
 import Drug from "@/app/assets/drug.jpg";
 import New_Drug_Addict from "@/app/assets/new_drug_addict.webp";
 import Cocaine from "@/app/assets/cocaine_bags.jpg";
+import {Button, buttonVariants} from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -34,6 +35,11 @@ export default function Home() {
           <CarouselNext />
         </Carousel>
       </div>
+      {/* <div>
+        <Button asChild>
+          <link href="/about-drug-addicts/page.tsx">About Drug Addicts</link>
+        </Button>
+      </div> */}
     </div>
   );
 }

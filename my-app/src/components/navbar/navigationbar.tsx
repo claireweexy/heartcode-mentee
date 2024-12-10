@@ -20,16 +20,23 @@ export function NavigationBar() {
                 </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-                <Link href="/quiz" legacyBehavior passHref>
+                <Link href="/about-drug-addicts" legacyBehavior passHref>
                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Quiz
+                    About Drug Addicts
                     </NavigationMenuLink>
                 </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-                <Link href="/about-drug-addicts" legacyBehavior passHref>
+                <Link href="/drug-types" legacyBehavior passHref>
                     <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    About Drug Addicts
+                    Drug Types
+                    </NavigationMenuLink>
+                </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+                <Link href="/quiz" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                    Quiz
                     </NavigationMenuLink>
                 </Link>
             </NavigationMenuItem>

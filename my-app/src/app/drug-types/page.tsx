@@ -43,7 +43,7 @@ export default function Home() {
                                 <div className="flex justify-center mt-2">
                                 <Dialog>
                                 <DialogTrigger asChild>
-                                    <Button variant="outline" className="bg-slate-50">More Info</Button>
+                                    <Button variant="outline" className="bg-slate-50 text-black	">More Info</Button>
                                 </DialogTrigger>
                                 <DialogContent className="sm:max-w-[425px]">
                                     <DialogHeader>
@@ -61,7 +61,7 @@ export default function Home() {
                                 <div className="flex justify-center mt-2">
                                 <Dialog>
                                 <DialogTrigger asChild>
-                                    <Button variant="outline" className="bg-slate-50">More Info</Button>
+                                    <Button variant="outline" className="bg-slate-50 text-black	">More Info</Button>
                                 </DialogTrigger>
                                 <DialogContent className="sm:max-w-[425px]">
                                     <DialogHeader>
@@ -79,7 +79,7 @@ export default function Home() {
                                 <div className="flex justify-center mt-2">
                                 <Dialog>
                                 <DialogTrigger asChild>
-                                    <Button variant="outline" className="bg-slate-50">More Info</Button>
+                                    <Button variant="outline" className="bg-slate-50 text-black	">More Info</Button>
                                 </DialogTrigger>
                                 <DialogContent className="sm:max-w-[425px]">
                                     <DialogHeader>
@@ -97,7 +97,7 @@ export default function Home() {
                                 <div className="flex justify-center mt-2">
                                 <Dialog>
                                 <DialogTrigger asChild>
-                                    <Button variant="outline" className="bg-slate-50">More Info</Button>
+                                    <Button variant="outline" className="bg-slate-50 text-black	">More Info</Button>
                                 </DialogTrigger>
                                 <DialogContent className="sm:max-w-[425px]">
                                     <DialogHeader>
@@ -115,7 +115,7 @@ export default function Home() {
                                 <div className="flex justify-center mt-2">
                                 <Dialog>
                                 <DialogTrigger asChild>
-                                    <Button variant="outline" className="bg-slate-50">More Info</Button>
+                                    <Button variant="outline" className="bg-slate-50 text-black	">More Info</Button>
                                 </DialogTrigger>
                                 <DialogContent className="sm:max-w-[425px]">
                                     <DialogHeader>

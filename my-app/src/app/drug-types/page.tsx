@@ -8,13 +8,6 @@ import {
     CarouselPrevious,
   } from "@/components/ui/carousel";
 
-import Crack from "@/app/assets/CRAC.jpg";
-import Fetanyl from "@/app/assets/FANTANYL.jpg";
-import Heroin from "@/app/assets/heroin1.webp";
-import Meth from "@/app/assets/METH1.avif";
-import Pcp from "@/app/assets/PCP1.webp";
-import Dont_Take_Drugs from "@/app/assets/dont_take_drugs.png";
-
 import { Button } from "@/components/ui/button"
 import {
     Dialog,
@@ -25,10 +18,11 @@ import {
     DialogTitle,
     DialogTrigger,
   } from "@/components/ui/dialog"
-  import { Input } from "@/components/ui/input"
-  import { Label } from "@/components/ui/label"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
+import { mainBank, drugBank } from "@/components/imagebank";
 
-export default function Home() {
+export default function DrugTypes() {
     const words = [""]
     return (
         <div>
@@ -38,96 +32,29 @@ export default function Home() {
                 <div className="flex justify-center">
                     <Carousel className="w-6/12">
                         <CarouselContent>
+                            {drugBank.map((image, index) => (
                             <CarouselItem>
-                                <div className="flex justify-center"><Image height={300} src={Crack} alt="Crack"/></div>
-                                <div className="flex justify-center mt-2">
-                                <Dialog>
-                                <DialogTrigger asChild>
-                                    <Button variant="outline" className="bg-slate-50 text-black	">More Info</Button>
-                                </DialogTrigger>
-                                <DialogContent className="sm:max-w-[425px]">
-                                    <DialogHeader>
-                                    <DialogTitle>More info about Crack</DialogTitle>
-                                    <DialogDescription>
-                                        Blah Blah Blah
-                                    </DialogDescription>
-                                    </DialogHeader>
-                                </DialogContent>
-                                </Dialog>
+                                <div className="flex justify-center">
+                                    <img key={index} src={image.url} alt={image.name} style={{height: '300px', width: 'auto'}}/>
+                                </div>
+                                <br/>
+                                <div className="flex justify-center">
+                                    <Dialog>
+                                    <DialogTrigger asChild>
+                                        <Button variant="outline" className="bg-slate-50 text-black	">More Info about Crack</Button>
+                                    </DialogTrigger>
+                                    <DialogContent className="sm:max-w-[425px]">
+                                        <DialogHeader>
+                                        <DialogTitle>More info about Crack</DialogTitle>
+                                        <DialogDescription>
+                                            Blah Blah Blah
+                                        </DialogDescription>
+                                        </DialogHeader>
+                                    </DialogContent>
+                                    </Dialog>
                                 </div>
                             </CarouselItem>
-                            <CarouselItem>
-                                <div className="flex justify-center"><Image height={300} src={Fetanyl} alt="Fetanyl"/></div>
-                                <div className="flex justify-center mt-2">
-                                <Dialog>
-                                <DialogTrigger asChild>
-                                    <Button variant="outline" className="bg-slate-50 text-black	">More Info</Button>
-                                </DialogTrigger>
-                                <DialogContent className="sm:max-w-[425px]">
-                                    <DialogHeader>
-                                    <DialogTitle>More info about Fetanyl</DialogTitle>
-                                    <DialogDescription>
-                                        Blah Blah Blah
-                                    </DialogDescription>
-                                    </DialogHeader>
-                                </DialogContent>
-                                </Dialog>
-                                </div>
-                            </CarouselItem>
-                            <CarouselItem>
-                                <div className="flex justify-center"><Image height={300} src={Heroin} alt="Heroin"/></div>
-                                <div className="flex justify-center mt-2">
-                                <Dialog>
-                                <DialogTrigger asChild>
-                                    <Button variant="outline" className="bg-slate-50 text-black	">More Info</Button>
-                                </DialogTrigger>
-                                <DialogContent className="sm:max-w-[425px]">
-                                    <DialogHeader>
-                                    <DialogTitle>More info about Heroin</DialogTitle>
-                                    <DialogDescription>
-                                        Blah Blah Blah
-                                    </DialogDescription>
-                                    </DialogHeader>
-                                </DialogContent>
-                                </Dialog>
-                                </div>
-                            </CarouselItem>
-                            <CarouselItem>
-                                <div className="flex justify-center"><Image height={300} src={Meth} alt="Meth"/></div>
-                                <div className="flex justify-center mt-2">
-                                <Dialog>
-                                <DialogTrigger asChild>
-                                    <Button variant="outline" className="bg-slate-50 text-black	">More Info</Button>
-                                </DialogTrigger>
-                                <DialogContent className="sm:max-w-[425px]">
-                                    <DialogHeader>
-                                    <DialogTitle>More info about Meth</DialogTitle>
-                                    <DialogDescription>
-                                        Blah Blah Blah
-                                    </DialogDescription>
-                                    </DialogHeader>
-                                </DialogContent>
-                                </Dialog>
-                                </div>
-                            </CarouselItem>
-                            <CarouselItem>
-                                <div className="flex justify-center"><Image height={300} src={Pcp} alt="PCP"/></div>
-                                <div className="flex justify-center mt-2">
-                                <Dialog>
-                                <DialogTrigger asChild>
-                                    <Button variant="outline" className="bg-slate-50 text-black	">More Info</Button>
-                                </DialogTrigger>
-                                <DialogContent className="sm:max-w-[425px]">
-                                    <DialogHeader>
-                                    <DialogTitle>More info about Pcp</DialogTitle>
-                                    <DialogDescription>
-                                        Blah Blah Blah
-                                    </DialogDescription>
-                                    </DialogHeader>
-                                </DialogContent>
-                                </Dialog>
-                                </div>
-                            </CarouselItem>
+                            ))}
                         </CarouselContent>
                         <CarouselPrevious />
                         <CarouselNext />
@@ -138,7 +65,7 @@ export default function Home() {
 
             <br/>
             <div className="flex justify-center">
-                <Image height={200} src={Dont_Take_Drugs} alt="That feeling when you don't take drugs"/>
+                <img src={"/assets/dont_take_drugs.png"} alt={"Dont_Take_Drugs"} style={{height: '300px', width: 'auto'}}/>
             </div>
         </div>
     );

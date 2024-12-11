@@ -34,8 +34,8 @@ export default function DrugTypes() {
                         <CarouselContent>
                             {drugBank.map((image, index) => (
                             <CarouselItem key={index}>
-                                <div className="flex justify-center">
-                                    <img src={image.url} alt={image.name} style={{height: '300px', width: 'auto'}}/>
+                                <div key={index} className="flex justify-center">
+                                    <img key={index} src={image.url} alt={image.name} style={{height: '300px', width: 'auto'}}/>
                                 </div>
                                 <br/>
                                 <div className="flex justify-center">

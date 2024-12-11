@@ -41,6 +41,13 @@ export function NavigationBar() {
                     </NavigationMenuLink>
                 </Link>
             </NavigationMenuItem>
+            <NavigationMenuItem>
+                <Link href="/get-help" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                    Get Help
+                    </NavigationMenuLink>
+                </Link>
+            </NavigationMenuItem>
         </div>
 
         <div>

@@ -1,4 +1,3 @@
-// import { FlipWords } from "@/components/ui/flip-words";
 // import Image from "next/image";
 import {
     Carousel,
@@ -23,7 +22,6 @@ import {
 import { drugBank } from "@/components/imagebank";
 
 export default function DrugTypes() {
-    // const words = [""]
     return (
         <div>
             <div className="text-center">

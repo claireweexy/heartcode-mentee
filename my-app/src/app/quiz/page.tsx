@@ -17,6 +17,17 @@ import {
 // import { Input } from "@/components/ui/input"
 // import { useToast } from "@/hooks/use-toast"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+
+import {
+    AlertDialog,
+    AlertDialogCancel,
+    AlertDialogContent,
+    AlertDialogDescription,
+    AlertDialogFooter,
+    AlertDialogHeader,
+    AlertDialogTitle,
+    AlertDialogTrigger,
+  } from "@/components/ui/alert-dialog"  
  
 const formSchema = z.object({
     q1: z.string({
@@ -123,12 +134,51 @@ export default function Quiz() {
                 {
                 q1Correct
                 ? <p>Question 1: Correct!</p>
-                : <p className="italic">Question 1: Wrong, you should encourage them to get help.</p>
+                : <div>
+                    <AlertDialog>
+                        <p className="italic">Question 1: &nbsp;
+                        <AlertDialogTrigger>
+                            <Button variant="outline">Wrong, click here to find out more!</Button>
+                        </AlertDialogTrigger>
+                        </p>
+                        <AlertDialogContent>
+                            <AlertDialogHeader>
+                            <AlertDialogTitle>Explanation</AlertDialogTitle>
+                            <AlertDialogDescription>
+                                You should encourage them to get help.
+                            </AlertDialogDescription>
+                            </AlertDialogHeader>
+                            <AlertDialogFooter>
+                            <AlertDialogCancel>Close</AlertDialogCancel>
+                            </AlertDialogFooter>
+                        </AlertDialogContent>
+                    </AlertDialog>
+                </div>
+                
                 }
                 {
                 q2Correct
                 ? <p>Question 2: Correct!</p>
-                : <p className="italic">Question 2: Wrong, it is amino acid that is not a street name for ketamine.</p>
+                : <div>
+                    <AlertDialog>
+                        <p className="italic">Question 2: &nbsp;
+                        <AlertDialogTrigger>
+                            <Button variant="outline">Wrong, click here to find out more!</Button>
+                        </AlertDialogTrigger>
+                        </p>
+                        <AlertDialogContent>
+                            <AlertDialogHeader>
+                            <AlertDialogTitle>Explanation</AlertDialogTitle>
+                            <AlertDialogDescription>
+                            It is amino acid that is not a street name for ketamine.
+                            </AlertDialogDescription>
+                            </AlertDialogHeader>
+                            <AlertDialogFooter>
+                            <AlertDialogCancel>Close</AlertDialogCancel>
+                            </AlertDialogFooter>
+                        </AlertDialogContent>
+                    </AlertDialog>
+                </div>
                 }
             </div>
         </div>

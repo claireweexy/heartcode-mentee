@@ -48,6 +48,13 @@ export function NavigationBar() {
                     </NavigationMenuLink>
                 </Link>
             </NavigationMenuItem>
+            <NavigationMenuItem>
+                <Link href="/ipad" legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                    iPad
+                    </NavigationMenuLink>
+                </Link>
+            </NavigationMenuItem>
         </div>
 
         <div>

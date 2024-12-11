@@ -47,7 +47,7 @@ export default function DrugTypes() {
                                         <DialogHeader>
                                         <DialogTitle>More info about {image.name}</DialogTitle>
                                         <DialogDescription>
-                                            Blah Blah Blah
+                                            {image.desc}
                                         </DialogDescription>
                                         </DialogHeader>
                                     </DialogContent>

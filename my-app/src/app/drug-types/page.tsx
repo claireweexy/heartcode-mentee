@@ -41,11 +41,11 @@ export default function DrugTypes() {
                                 <div className="flex justify-center">
                                     <Dialog>
                                     <DialogTrigger asChild>
-                                        <Button variant="outline" className="bg-slate-50 text-black	">More Info about Crack</Button>
+                                        <Button variant="outline" className="bg-slate-50 text-black	">More Info about {image.name}</Button>
                                     </DialogTrigger>
                                     <DialogContent className="sm:max-w-[425px]">
                                         <DialogHeader>
-                                        <DialogTitle>More info about Crack</DialogTitle>
+                                        <DialogTitle>More info about {image.name}</DialogTitle>
                                         <DialogDescription>
                                             Blah Blah Blah
                                         </DialogDescription>

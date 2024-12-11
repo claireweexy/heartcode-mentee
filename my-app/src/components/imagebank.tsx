@@ -31,11 +31,7 @@ export const drugBank = [
         url: '/assets/METH1.avif'
     },
     {
-        name: 'Pcp',
+        name: 'PCP',
         url: '/assets/PCP1.webp'
-    },
-    {
-        name: 'Dont Take Drugs',
-        url: '/assets/dont_take_drugs.png'
     }
   ]

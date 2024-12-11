@@ -55,8 +55,8 @@ export default function Quiz() {
         // ✅ This will be type-safe and validated.
         q1 = values.q1;
         q2 = values.q2;
-        q1Correct = q1 === "0";
-        q2Correct = q2 === "0";
+        q1Correct = q1 === "3";
+        q2Correct = q2 === "1";
   
       }
     return (

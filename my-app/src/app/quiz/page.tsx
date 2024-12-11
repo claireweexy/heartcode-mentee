@@ -8,13 +8,13 @@ import { Button } from "@/components/ui/button"
 import {
   Form,
   FormControl,
-  FormDescription,
+//   FormDescription,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
 } from "@/components/ui/form"
-import { Input } from "@/components/ui/input"
+// import { Input } from "@/components/ui/input"
 // import { useToast } from "@/hooks/use-toast"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
  
@@ -121,12 +121,12 @@ export default function Quiz() {
             </div>
             <div className="grid justify-center bg-opacity-90 bg-white mx-96 p-2">
                 {
-                q1 == "3"
+                q1Correct
                 ? <p>Question 1: Correct!</p>
                 : <p className="italic">Question 1: Wrong, you should encourage them to get help.</p>
                 }
                 {
-                q2 == "1"
+                q2Correct
                 ? <p>Question 2: Correct!</p>
                 : <p className="italic">Question 2: Wrong, it is amino acid that is not a street name for ketamine.</p>
                 }

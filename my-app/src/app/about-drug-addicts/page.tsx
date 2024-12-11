@@ -60,7 +60,7 @@ Eventually, Nicole sought therapy to heal from the pain of her past. Over time, 
 `,
       name: "Nicole Richie ",
       designation: "-",
-      src: "/assets/nicole.jfif"
+      src: "/assets/nicole.png"
     },
     {
       quote:

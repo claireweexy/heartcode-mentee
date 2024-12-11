@@ -1,9 +1,4 @@
-import Image from "next/image";
-import Drug_Addict from "/assets/drug_addict.webp";
-import Weed_Addict from "/assets/weed_addict.webp";
-import See_Drugs from "/assets/see_drugs.png";
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
-import New_Addict from "/assets/new_drug_addict.webp";
 
 export default function DrugAddicts() {
   const testimonials = [

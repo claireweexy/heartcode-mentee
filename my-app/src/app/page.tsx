@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react"
 import {
   Carousel,
@@ -9,7 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-import { mainBank, drugBank } from "@/components/imagebank";
+import { mainBank } from "@/components/imagebank";
 
 export default function Home() {
   return (

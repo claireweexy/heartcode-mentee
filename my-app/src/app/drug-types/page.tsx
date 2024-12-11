@@ -1,5 +1,5 @@
-import { FlipWords } from "@/components/ui/flip-words";
-import Image from "next/image";
+// import { FlipWords } from "@/components/ui/flip-words";
+// import Image from "next/image";
 import {
     Carousel,
     CarouselContent,
@@ -13,17 +13,17 @@ import {
     Dialog,
     DialogContent,
     DialogDescription,
-    DialogFooter,
+    // DialogFooter,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
   } from "@/components/ui/dialog"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { mainBank, drugBank } from "@/components/imagebank";
+// import { Input } from "@/components/ui/input"
+// import { Label } from "@/components/ui/label"
+import { drugBank } from "@/components/imagebank";
 
 export default function DrugTypes() {
-    const words = [""]
+    // const words = [""]
     return (
         <div>
             <div className="text-center">
@@ -33,9 +33,9 @@ export default function DrugTypes() {
                     <Carousel className="w-6/12">
                         <CarouselContent>
                             {drugBank.map((image, index) => (
-                            <CarouselItem>
+                            <CarouselItem key={index}>
                                 <div className="flex justify-center">
-                                    <img key={index} src={image.url} alt={image.name} style={{height: '300px', width: 'auto'}}/>
+                                    <img src={image.url} alt={image.name} style={{height: '300px', width: 'auto'}}/>
                                 </div>
                                 <br/>
                                 <div className="flex justify-center">

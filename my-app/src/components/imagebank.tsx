@@ -33,5 +33,9 @@ export const drugBank = [
     {
         name: 'PCP',
         url: '/assets/PCP1.webp'
+    },
+    {
+      name: 'Weed',
+      url: '/assets/weed1.jpg'
     }
   ]

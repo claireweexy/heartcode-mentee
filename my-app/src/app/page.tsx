@@ -23,8 +23,8 @@ export default function Home() {
         <Carousel className="w-6/12">
           <CarouselContent>
             {mainBank.map((image, index) => (
-              <CarouselItem>
-                <div className="flex justify-center">
+              <CarouselItem key={index}>
+                <div key={index} className="flex justify-center">
                   <img key={index} src={image.url} alt={image.name} style={{height: '300px', width: 'auto'}}/>
                 </div>
               </CarouselItem>

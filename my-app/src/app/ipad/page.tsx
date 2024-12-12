@@ -25,19 +25,19 @@ export default function IPad() {
             </div>
             
             <div className="fixed bottom-0 left-0 border-black border-2">
-                <img src={"/assets/subway_surfers.gif"} alt={"Subway Surfers"} style={{height: '300px', width: 'auto'}}/>
+                <img src={"/assets/subway_surfers.gif"} alt={"Subway Surfers"} style={{height: 'auto', width: '10vw'}}/>
                 
             </div>
             <div className="fixed bottom-0 right-0 border-black border-2">
-                <img src={"/assets/slime.gif"} alt={"Slime"} style={{height: '300px', width: 'auto'}}/>
+                <img src={"/assets/slime.gif"} alt={"Slime"} style={{height: 'auto', width: '20vw'}}/>
             </div>
 
             <div className="fixed top-20 left-0 border-black border-2">
-                <img src={"/assets/looking_at_ipad.png"} alt={"guy looking at ipad"} style={{height: '300px', width: 'auto'}}/>
+                <img src={"/assets/looking_at_ipad.png"} alt={"guy looking at ipad"} style={{height: 'auto', width: '20vw'}}/>
             </div>
 
             <div className="fixed top-20 right-0 border-black border-2">
-                <img src={"/assets/cows.gif"} alt={"dancing cows"} style={{height: 'auto', width: '400px'}}/>
+                <img src={"/assets/cows.gif"} alt={"dancing cows"} style={{height: 'auto', width: '25vw'}}/>
             </div>
             
         </div>

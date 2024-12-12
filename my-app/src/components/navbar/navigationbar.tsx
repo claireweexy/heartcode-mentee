@@ -9,6 +9,14 @@ import {
 import Link from "next/link";
 import { ModeToggle } from "../mode-toggle";
 
+import {
+    ClerkProvider,
+    SignInButton,
+    SignedIn,
+    SignedOut,
+    UserButton
+  } from '@clerk/nextjs'
+
 export function NavigationBar() {
     return(
     <NavigationMenu className="flex flex-row justify-between min-w-full list-none h-16 sticky top-0 p-3">
@@ -57,8 +65,19 @@ export function NavigationBar() {
             </NavigationMenuItem>
         </div>
 
-        <div>
-            <ModeToggle/>
+        <div className="flex flex-row">
+            <div className="mx-2 my-1">
+                <SignedOut>
+                    <SignInButton />
+                </SignedOut>
+                <SignedIn>
+                    <UserButton/>
+                </SignedIn>
+            </div>
+
+            <div className="mx-2">
+                <ModeToggle/>
+            </div>
         </div>
     </NavigationMenu>
     )

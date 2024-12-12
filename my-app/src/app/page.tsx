@@ -7,7 +7,7 @@ const data = [
   {
     category: "Purpose",
     title: "What is this website about?",
-    src: "/assets/new_drug_addict.webp",
+    src: "/assets/healthy_man.jpg",
     content: ``,
   },
   {

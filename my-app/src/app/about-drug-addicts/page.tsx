@@ -66,7 +66,8 @@ Through therapy, Nicole focused on healing and accepted she couldn’t control h
       name: "Nicole Richie ",
       designation: "American fashion designer and actress",
       src: "/assets/nicole.png",
-      story: ""
+      story: `These accounts are more than just cautionary tales; they are a stark wake-up call. They show us the ripple effect of addiction—how one person’s struggle can fracture families, devastate friendships, and leave entire communities grappling with grief. They remind us that addiction is not a solitary battle; it pulls everyone into its orbit, leaving scars that last a lifetime.
+Yet, within these stories also lies an important message: the need for compassion, understanding, and action. They remind us of the importance of speaking up, of offering help, and of creating a world where those struggling with addiction feel supported, not judged. These stories are here not only to mourn the lives lost and broken but to inspire us to do better—for ourselves, for our loved ones, and for the countless others who are still fighting their battles. Together, we can break the cycle and choose a path of healing, love, and hope. Let’s make our voices louder than the silence of lives ruined, and let the light of our support shine brighter than the darkness of addiction.`
     },
     {
       quote:

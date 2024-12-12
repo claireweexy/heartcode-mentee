@@ -56,7 +56,7 @@ Sarah’s story is a heartbreaking reminder that addiction affects not just the 
 In her teens, Nicole’s unresolved pain led to reckless behavior, which she admitted was shaped by her father’s addiction. “I didn’t know how to deal with it, so I shut it out. But it followed me into my own struggles as I got older,” she reflected.
 Through therapy, Nicole focused on healing and accepted she couldn’t control her father’s addiction. Now an advocate for recovery, she shares her story to inspire others, reminding them, “Healing is possible.”
 `,
-      name: "Nicole Richie ",
+      name: "Nicole Richie",
       designation: "American fashion designer and actress",
       src: "/assets/nicole.png",
       story: "These accounts are more than just cautionary tales; they are a stark wake-up call. They show us the ripple effect of addiction—how one person’s struggle can affect relationships, ruin lives. They remind us that addiction is not a battle that needs to be comquered alone. These stories remind us of the importance of speaking up, of offering help, and of creating a world where those struggling with addiction feel supported, not judged. These stories not only mourn the lives lost and broken but also inspire us to do better for ourselves, for our loved ones, and for the countless others who are still fighting their battles. Together, we can break the cycle and choose a path of healing, love, and hope."

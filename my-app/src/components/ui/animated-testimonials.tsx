@@ -102,7 +102,7 @@ export const AnimatedTestimonials = ({
           </div>
           {testimonials[active].story.split("  ").map((story, index) => (
             <div className="mt-5">
-              <Accordion type="single" collapsible>
+              <Accordion key={index} type="single" collapsible>
                 <AccordionItem value="item-1">
                   <AccordionTrigger>Storytime</AccordionTrigger>
                   <AccordionContent>

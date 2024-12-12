@@ -55,8 +55,8 @@ export default function Quiz() {
         // ✅ This will be type-safe and validated.
         q1 = values.q1;
         q2 = values.q2;
-        q1Correct = q1 === "0";
-        q2Correct = q2 === "0";
+        q1Correct = q1 === "3";
+        q2Correct = q2 === "1";
   
       }
     return (
@@ -78,7 +78,7 @@ export default function Quiz() {
                     render={({ field }) => (
                         <FormItem>
                         <FormLabel>Question 1 <br/> What should you do if you see your friend abusing drugs?</FormLabel>
-                        <Select onValueChange={field.onChange} defaultValue={field.value}>
+                        <Select onValueChange={field.onChange} defaultValue={"0"}>
 
                             <FormControl>
                             <SelectTrigger>
@@ -106,7 +106,7 @@ export default function Quiz() {
                     render={({ field }) => (
                         <FormItem>
                         <FormLabel>Question 2 <br/> Which is not a name for ketamine?</FormLabel>
-                        <Select onValueChange={field.onChange} defaultValue={field.value}>
+                        <Select onValueChange={field.onChange} defaultValue={"0"}>
 
                             <FormControl>
                             <SelectTrigger>
@@ -130,13 +130,14 @@ export default function Quiz() {
                 </form>
                 </Form>
             </div>
-            <div className="grid justify-center bg-opacity-90 bg-white mx-96 p-2">
+            <div className="grid justify-center bg-opacity-90 bg-white mx-96">
                 {
                 q1Correct
                 ? <p>Question 1: Correct!</p>
+                : q1 == undefined ? <div></div>
                 : <div>
                     <AlertDialog>
-                        <p className="italic">Question 1: &nbsp;
+                        <p>Question 1: &nbsp;
                         <AlertDialogTrigger>
                             <Button variant="outline">Wrong, click here to find out more!</Button>
                         </AlertDialogTrigger>
@@ -159,9 +160,10 @@ export default function Quiz() {
                 {
                 q2Correct
                 ? <p>Question 2: Correct!</p>
+                : q2 == undefined ? <div></div>
                 : <div>
                     <AlertDialog>
-                        <p className="italic">Question 2: &nbsp;
+                        <p>Question 2: &nbsp;
                         <AlertDialogTrigger>
                             <Button variant="outline">Wrong, click here to find out more!</Button>
                         </AlertDialogTrigger>

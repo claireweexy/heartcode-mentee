@@ -5,11 +5,20 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
+
 type Testimonial = {
   quote: string;
   name: string;
   designation: string;
   src: string;
+  story: string;
 };
 export const AnimatedTestimonials = ({
   testimonials,
@@ -91,6 +100,18 @@ export const AnimatedTestimonials = ({
               ))}
             </AnimatePresence>
           </div>
+          {testimonials[active].story.split("  ").map((story, index) => (
+            <div className="mt-5">
+              <Accordion type="single" collapsible>
+                <AccordionItem value="item-1">
+                  <AccordionTrigger>Storytime</AccordionTrigger>
+                  <AccordionContent>
+                    {story}
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            </div>
+          ))}
         </div>
         <div className="flex justify-between flex-col py-4">
           <motion.div

@@ -64,7 +64,6 @@ Individuals with drug use issues in Singapore show higher rates of anxiety disor
 ~ Charlotte Brontë
 “That which does not kill us makes us stronger.”
 
-~ Friedrich Nietzsche
 `,
   },
   {

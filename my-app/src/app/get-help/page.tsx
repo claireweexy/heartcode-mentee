@@ -16,11 +16,11 @@ export default function GetHelp() {
                 </div>
                 <div className="text-3xl px-80 flex justify-center">
                     <br />
-                    {" IMH Hotline: : 6389 2222 "}
+                    {" IMH Hotline: 6389 2222 "}
                 </div>
                 <br/>
                 <div className="h-auto">
-                    <img src={"/assets: /therapist.png"} alt={""} style={{height: 'auto', width: '100%'}}/>
+                    <img src={"/assets/therapist.png"} alt={"therapist"} style={{height: 'auto', width: '100%'}}/>
                 </div>
                 <div className="w-40 fixed bottom-0 right-0 m-6">
                     <div className="text-3xl font-bold">

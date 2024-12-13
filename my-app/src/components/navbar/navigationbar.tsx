@@ -11,7 +11,7 @@ import { ModeToggle } from "../mode-toggle";
 
 export function NavigationBar() {
     return(
-    <NavigationMenu className="flex flex-row justify-between min-w-full list-none h-16 sticky top-0 p-3">
+    <NavigationMenu className="flex flex-row justify-between min-w-full list-none h-16 sticky top-0 p-3 backdrop-blur">
         <div className="flex flex-row">
             <NavigationMenuItem>
                 <Link href="/" legacyBehavior passHref>

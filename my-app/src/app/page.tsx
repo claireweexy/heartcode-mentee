@@ -19,10 +19,9 @@ const data = [
 - Global Drug Usage: Around 296 million people worldwide were reported to use drugs in 2021, which shows a 23% increase over the previous decade. The majority of the increase is attributed to population growth and changes in drug use patterns worldwide​.  
 - Drug-Related Deaths: An estimated 585,000 deaths were attributed to drug use in 2021, primarily due to opioid use disorders. Synthetic opioids like fentanyl continue to be a leading cause of overdose deaths globally  
 - CENTRAL NARCOTICS BUREAU
--Over 35 million people worldwide suffer from drug use disorders, yet only about 1 in 7 people receive the treatment they need. This gap in care highlights the global challenge of providing accessible, affordable, and effective rehabilitation services to those affected by substance abuse​
-ADDICTION GROUP
-​
-UNODC
+- Over 35 million people worldwide suffer from drug use disorders, yet only about 1 in 7 people receive the treatment they need. This gap in care highlights the global challenge of providing accessible, affordable, and effective rehabilitation services to those affected by substance abuse​
+- ADDICTION GROUP
+
 
 
 

@@ -22,7 +22,7 @@ export default function GetHelp() {
                 <div className="h-auto">
                     <img src={"/assets/therapist.png"} alt={"therapist"} style={{height: 'auto', width: '100%'}}/>
                 </div>
-                <div className="w-40 fixed bottom-0 right-0 m-6">
+                <div className="w-40 fixed bottom-0 right-0 m-6 text-neutral-950">
                     <div className="text-3xl font-bold">
                         Resources
                     </div>

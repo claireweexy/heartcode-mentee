@@ -8,7 +8,7 @@ const data = [
     category: "Purpose",
     title: "What is this website about?",
     src: "/assets/web.jpg",
-    content: ``,
+    content: `This website was created to educate the public of the dangers of drug abuse. Not only does it affect the user's health, it also affects their relationships. If you or your loved ones are struggling with addiction, this website can provide more information and helplines. You are not alone.`,
   },
   {
     category: "Statistics",
@@ -44,14 +44,32 @@ Individuals with drug use issues in Singapore show higher rates of anxiety disor
     category: "News",
     title: "Find out more about substance abuse.",
     src: "/assets/new.jpg",
-    content: ``,
+    content: `Different kinds of drugs affect your body in different long and short term ways. Depending on the drug taken, you could become more susceptible to infectious diseases, make you agitated and aggressive, cause anxiety, confusion, paranoia, psychosis, cause a seizure, stroke, heart attack or even lead to death.`,
   },
  
   {
     category: "Quotes",
     title: "Hear from past addicts",
     src: "/assets/quo.jpg",
-    content: ``,
+    content: `“If you can quit for a day, you can quit for a lifetime.”
+
+~ Benjamin Alire Sáenz
+“One of the hardest things was learning that I was worth recovery.”
+
+~ Benjamin Alire Sáenz
+“You can’t defeat the darkness by keeping it caged inside of you.”
+
+~ Seth Adam Smith
+“Life doesn’t get easier or more forgiving; we get stronger and more resilient.”
+
+~ Steve Maraboli
+“I avoid looking forward or backward, and try to keep looking upward.”
+
+~ Charlotte Brontë
+“That which does not kill us makes us stronger.”
+
+~ Friedrich Nietzsche
+`,
   },
 ];
 
@@ -67,7 +85,7 @@ export default function Home() {
         <div className="text-lg px-6 font-semibold">Did you know?</div>
         <div className="text-lg px-6 font-semibold">The Oxford definition of substance abuse: 
           <p className="text-lg px-6 font-normal">"The habit of taking too much harmful drugs or drinking too much."
-But substance abuse is so much more than a habit—it’s a force that devastates lives, tears families apart, and destroys futures.
+However, substance abuse is so much more than a habit—it’s a force that devastates lives, tears families apart, and destroys futures.
 It’s not just about the harm to one person; it’s about the ripples of pain, loss, and heartbreak that extend to everyone who loves them. Substance abuse doesn’t just break individuals—it breaks bonds, dreams, and hope.
 
 </p></div></div>

@@ -61,7 +61,7 @@ export default function Quiz() {
       }
     return (
         <div className="bg-[url('/assets/dont_take_drugs.png')] h-screen">
-            <div className="bg-opacity-90 bg-white text-center text-zinc-950">
+            <div className="bg-opacity-90 bg-white text-center text-neutral-950">
                 {"Drugs aren't good. They're not food."}
                 <br/>
                 
@@ -69,7 +69,7 @@ export default function Quiz() {
             <div className="fixed bottom-0 left-0 border-black border-2">
                 <img src={"/assets/subway_surfers.gif"} alt={"Subway Surfers"} style={{height: '300px', width: 'auto'}}/>
             </div>
-            <div className="grid justify-center bg-opacity-90 bg-white mx-96 py-2 my-2 text-zinc-950">
+            <div className="grid justify-center bg-opacity-90 bg-white mx-96 py-2 my-2 text-neutral-950">
                 <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
                         <FormField

@@ -110,7 +110,7 @@ It’s not just about the harm to one person; it’s about the ripples of pain, 
 </p></div></div>
       <div className="p-6">
         <div className="text-2xl font-semibold">Victim Rememberance Day</div>
-        <div className="text-lg px-6">In honour of the lives that were ruined due to drugs, Singapore has designated <b>every third of friday of May</b> each year as Drug Victims Rememberance Day. This solemn day is dedicated to remembering individuals and families affected by substance abuse and fostering awareness about the importance of prevention, support, and recovery. It serves as a powerful reminder of the need for a collective effort to combat the harmful effects of drug addiction. Click <a href="https://www.cnb.gov.sg/drug-victims-remembrance-day" className="underline" target="_blank">here</a> to find out more</div>
+        <div className="text-lg px-6">In honour of the lives that were ruined due to drugs, Singapore has designated <b>every third of friday of May</b> each year as Drug Victims Rememberance Day. This solemn day is dedicated to remembering individuals and families affected by substance abuse and fostering awareness about the importance of prevention, support, and recovery. It serves as a powerful reminder of the need for a collective effort to combat the harmful effects of drug addiction. Click <a href="https://www.cnb.gov.sg/drug-victims-remembrance-day" className="underline" target="_blank">here </a>to find out more</div>
       </div>
       <div className="w-full h-full py-20">
         <h2 className="pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">

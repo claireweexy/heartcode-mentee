@@ -16,6 +16,7 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Image, { ImageProps } from "next/image";
 import { useOutsideClick } from "@/hooks/use-outside-click";
+import ReactMarkdown from "react-markdown";
 
 interface CarouselProps {
   items: JSX.Element[];
@@ -232,7 +233,7 @@ export const Card = ({
               >
                 {card.title}
               </motion.p>
-              <div className="py-10">{card.content}</div>
+              <div className="py-10"><ReactMarkdown>{card.content}</ReactMarkdown></div>
             </motion.div>
           </div>
         )}

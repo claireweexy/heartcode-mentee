@@ -105,7 +105,7 @@ export const AnimatedTestimonials = ({
               <Accordion key={index} type="single" collapsible>
                 <AccordionItem key={index} value="item-1">
                   <AccordionTrigger key={index}>Storytime</AccordionTrigger>
-                  <AccordionContent key={index}>
+                  <AccordionContent key={index}>      
                     {story}
                   </AccordionContent>
                 </AccordionItem>

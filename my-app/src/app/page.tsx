@@ -15,37 +15,34 @@ const data = [
     title: "Statistics on substance abuse",
     src: "/assets/stats.jpg",
     content: `
-  Global Statistics:
+- **Global Statistics:**  
 - Global Drug Usage: Around 296 million people worldwide were reported to use drugs in 2021, which shows a 23% increase over the previous decade. The majority of the increase is attributed to population growth and changes in drug use patterns worldwide​.  
 - Drug-Related Deaths: An estimated 585,000 deaths were attributed to drug use in 2021, primarily due to opioid use disorders. Synthetic opioids like fentanyl continue to be a leading cause of overdose deaths globally  
-- CENTRAL NARCOTICS BUREAU
+- -CENTRAL NARCOTICS BUREAU  
+- &#x200B;   
 - Over 35 million people worldwide suffer from drug use disorders, yet only about 1 in 7 people receive the treatment they need. This gap in care highlights the global challenge of providing accessible, affordable, and effective rehabilitation services to those affected by substance abuse​
-- ADDICTION GROUP
-
-
-
-
-Local Drug Arrest Trends:
-Methamphetamine remains the most commonly abused drug in Singapore, accounting for 52% of arrests in 2023.
-Heroin follows at 33%, with cannabis accounting for 9% of arrests​
-- CENTRAL NARCOTICS BUREAU
-.
+- -ADDICTION GROUP  
+- &#x200B;  
+- **Local Statistics:**  
+- Local Drug Arrest Trends: Methamphetamine remains the most commonly abused drug in Singapore, accounting for 52% of arrests in 2023.
+Heroin follows at 33%, with cannabis accounting for 9% of arrests​  
+- -CENTRAL NARCOTICS BUREAU. 
+- &#x200B;   
 Youth Perceptions on Drugs:
 A 2020 survey revealed 82.5% of youths aged 18–30 supported Singapore's zero-tolerance drug policy, compared to 88.3% of those above 30. This shows slightly lower support for anti-drug policies among younger demographics​
 - ANNALS SINGAPORE
 .
 Mental Health and Substance Abuse:
 Individuals with drug use issues in Singapore show higher rates of anxiety disorders, depression, and insomnia. This underscores the link between mental health struggles and substance abuse​
-- ANNALS SINGAPORE
+- -ANNALS SINGAPORE
 .`,
   },
   {
     category: "News",
     title: "Find out more about substance abuse.",
     src: "/assets/new.jpg",
-    content: `Different kinds of drugs affect your body in different long and short term ways. Depending on the drug taken, you could become more susceptible to infectious diseases, make you agitated and aggressive, cause anxiety, confusion, paranoia, psychosis, cause a seizure, stroke, heart attack or even lead to death.`,
+    content: `there are many real life cases of drug abuse, drug victims and drug dealing. Every single one of these cases are tragic and should not be overlooked. please feel free to read up on new with the links given. (press on the website names) [CNA](https://www.channelnewsasia.com/), [BBC](https://www.bbc.com/), [CNN](https://edition.cnn.com/)` 
   },
- 
   {
     category: "Quotes",
     title: "Hear from past addicts",
@@ -70,6 +67,30 @@ Individuals with drug use issues in Singapore show higher rates of anxiety disor
 ~ Friedrich Nietzsche
 `,
   },
+  {
+    category: "Legal",
+    title: "Legislation",
+    src: "/assets/laws.png",
+    content: `The Misuse of Drugs Act (MDA): This is the primary law governing drug-related offenses in Singapore. It outlines penalties for the possession, trafficking, and consumption of controlled substances. Penalties are severe and can include long prison sentences, hefty fines, and even the death penalty for certain offenses.
+
+Possession of Drugs: The possession of any illegal drug is a criminal offense, with penalties depending on the quantity of the drug found. Possession of even small amounts of drugs can lead to long prison terms, heavy fines, or both. For example, possessing more than 15g of heroin (or its equivalent) can result in a death sentence under the MDA.
+
+Drug Trafficking: Drug trafficking is considered a serious crime. Any person found with drugs above specific thresholds can face the death penalty. For example, trafficking more than 15g of heroin or 30g of cocaine can lead to capital punishment.
+
+Death Penalty for Major Drug Offenses: Singapore applies the death penalty for serious drug-related offenses, particularly for trafficking large quantities of illegal drugs. In recent years, the country has been criticized by human rights organizations for maintaining this policy.
+
+Compulsory Drug Testing: The Singapore government conducts random and mandatory drug tests on individuals suspected of drug abuse. If someone tests positive for drugs, they can face a mandatory rehabilitation program.
+
+Rehabilitation and Treatment: For those found guilty of drug abuse, Singapore provides compulsory rehabilitation programs. The government operates the Institute of Mental Health (IMH) and various rehabilitation centers. There are also rehabilitation programs for drug addicts who are not involved in trafficking but are still required to undergo treatment to help break their addiction.
+
+The Death Penalty for Young Offenders: While the death penalty is available for those found trafficking drugs in significant amounts, certain offenders aged between 18 and 21 may still be eligible for a reduced sentence if they have shown remorse and the courts find that they were not fully aware of the consequences of their actions.
+
+International Cooperation: Singapore actively cooperates with other countries in the fight against global drug trafficking and is a member of the International Narcotics Control Board (INCB).
+
+Singapore has a zero-tolerance approach to drug use, and the country’s strict laws are enforced with very few exceptions. Those involved in drug trafficking face extreme penalties, and even those found guilty of consuming or possessing drugs face heavy sentences.
+
+For more details on drug laws in Singapore, you can check government websites or the Misuse of Drugs Act documentation.`,
+  },
 ];
 
 export default function Home() {
@@ -90,7 +111,7 @@ It’s not just about the harm to one person; it’s about the ripples of pain, 
 </p></div></div>
       <div className="p-6">
         <div className="text-2xl font-semibold">Victim Rememberance Day</div>
-        <div className="text-lg px-6">In honour of the lives that were ruined due to drugs, Singapore has designated <b>every third of friday of May</b> each year as Drug Victims Rememberance Day. This solemn day is dedicated to remembering individuals and families affected by substance abuse and fostering awareness about the importance of prevention, support, and recovery. It serves as a powerful reminder of the need for a collective effort to combat the harmful effects of drug addiction.</div>
+        <div className="text-lg px-6">In honour of the lives that were ruined due to drugs, Singapore has designated <b>every third of friday of May</b> each year as Drug Victims Rememberance Day. This solemn day is dedicated to remembering individuals and families affected by substance abuse and fostering awareness about the importance of prevention, support, and recovery. It serves as a powerful reminder of the need for a collective effort to combat the harmful effects of drug addiction. Click <a href="https://www.cnb.gov.sg/drug-victims-remembrance-day" className="underline" target="_blank">here</a> to find out more</div>
       </div>
       <div className="w-full h-full py-20">
         <h2 className="pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
